@@ -1,0 +1,32 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #73747A;
+}
+
+html {
+    width: 1440;
+    height: 800;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #F3EAE3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
