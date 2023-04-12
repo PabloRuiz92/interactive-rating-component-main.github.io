@@ -20,13 +20,14 @@ body {
     font-family: 'Overpass', sans-serif;
 }
 
-.container {
+#containerRating {
     color: white;
     background-image: radial-gradient(at 50% -5%, #232A34, #191E27);
     width: 20.3125em;
     height: 22.5em;
     border-radius: 1em;
     padding: 1.5em;
+    visibility: visible;
 }
 
 .starIcon {
@@ -84,6 +85,16 @@ p {
 #btnSubmit:hover {   
     background-color: white;
     color: #FC7613;
+}
+
+#containerThankYou{
+    color: white;
+    background-image: radial-gradient(at 50% -5%, #232A34, #191E27);
+    width: 20.3125em;
+    height: 22.5em;
+    border-radius: 1em;
+    padding: 1.5em;
+    visibility: hidden;
 }
 
 .attribution { 
