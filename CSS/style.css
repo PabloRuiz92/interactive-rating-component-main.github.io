@@ -18,6 +18,7 @@ main {
     align-items: center;
     justify-content: center;
     font-family: 'Overpass', sans-serif;
+    position: relative;
 }
 
 #containerRating {
@@ -30,12 +31,12 @@ main {
     visibility: visible;
     display: flex;
     flex-direction: column;
+    position: absolute;
 }
 
 #containerRating > *:not(:last-child) {
     margin-bottom: auto; 
 } 
-
 
 .starIcon {
     background-color: #262F38;
@@ -101,6 +102,7 @@ p {
     visibility: hidden;
     display: flex;
     flex-direction: column;
+    position: absolute;
 }
 
 #containerThankYou > *:not(:last-child) {
@@ -112,6 +114,10 @@ p {
     background-color:#262F38;
     border-radius: 2em;
     padding: .5em 1em;
+}
+
+#selectedScore {
+    color:#FC7613;
 }
 
 .attribution { 
