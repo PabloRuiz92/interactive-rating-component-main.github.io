@@ -12,39 +12,41 @@
 </head>
 <body>
 
-  <main id="containerRating">
-    <div>
-      <img src="images/icon-star.svg" alt="star icon" class="starIcon">
+  <main>    
+    <div id="containerRating">
+      <div>
+        <img src="images/icon-star.svg" alt="star icon" class="starIcon">
+      </div>
+      <h1>How did we do?</h1>
+      <p>
+        Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!
+      </p>
+      <div class="buttonContainer">
+        <button class="btnScore" id="btnScore1">1</button> 
+        <button class="btnScore" id="btnScore2">2</button> 
+        <button class="btnScore" id="btnScore3">3</button> 
+        <button class="btnScore" id="btnScore4">4</button> 
+        <button class="btnScore" id="btnScore5">5</button>
+      </div>
+      <button id="btnSubmit">SUBMIT</button>
+    </div>  
+
+    <div id="containerThankYou">
+      <div class="containerImgThankYou">
+        <img src="images/illustration-thank-you.svg" alt="Thank you!">
+      </div>
+  
+      <h3 class="rating">You selected <span id="selectedScore"></span> out of 5</h3>
+    
+      <h1>Thank you!</h1>
+    
+      <p>
+        We appreciate you taking the time to give a rating. If you ever need more support,
+        don’t hesitate to get in touch!
+      </p>
     </div>
-    <h1>How did we do?</h1>
-    <p>
-      Please let us know how we did with your support request. All feedback is appreciated
-      to help us improve our offering!
-    </p>
-    <div class="buttonContainer">
-      <button class="btnScore" id="btnScore1">1</button> 
-      <button class="btnScore" id="btnScore2">2</button> 
-      <button class="btnScore" id="btnScore3">3</button> 
-      <button class="btnScore" id="btnScore4">4</button> 
-      <button class="btnScore" id="btnScore5">5</button>
-    </div>
-    <button id="btnSubmit">SUBMIT</button>
   </main>
-
-  <div id="containerThankYou">
-    <div class="containerImgThankYou">
-      <img src="images/illustration-thank-you.svg" alt="Thank you!">
-    </div>
-
-    <h3 class="rating">You selected <span id="selectedScore"></span> out of 5</h3>
-  
-    <h1>Thank you!</h1>
-  
-    <p>
-      We appreciate you taking the time to give a rating. If you ever need more support,
-      don’t hesitate to get in touch!
-    </p>
-  </div>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
