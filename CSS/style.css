@@ -28,30 +28,33 @@ body {
     border-radius: 1em;
     padding: 1.5em;
     visibility: visible;
+    display: flex;
+    flex-direction: column;
 }
+
+#containerRating > *:not(:last-child) {
+    margin-bottom: auto; 
+} 
+
 
 .starIcon {
     background-color: #262F38;
     padding: 1em;
     border-radius: 100%;
-    margin-bottom: 16px;
 }
 
 h1 {
     color: white;
     font-size: 1.5em;
-    margin-bottom: 16px;
 }
 
 p {
     font-size: 14px;
-    margin-bottom: 30px;
 }
 
 .buttonContainer {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 30px;
 }
 
 .btnScore {
@@ -94,7 +97,21 @@ p {
     height: 22.5em;
     border-radius: 1em;
     padding: 1.5em;
+    text-align: center;
     visibility: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+#containerThankYou > *:not(:last-child) {
+    margin: auto; 
+} 
+
+.rating {
+    color:#FC7613;
+    background-color:#262F38;
+    border-radius: 2em;
+    padding: .5em 1em;
 }
 
 .attribution { 
