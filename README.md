@@ -17,7 +17,11 @@ Project to practice HTML, CSS and JavaScript.
 
 ### Screenshot
 
-![]()
+![image](./Screenshot-desktop-score-state-active.png)
+![image](./Screenshot-desktop-score-state-inactive.png)
+![image](./Screenshot-desktop-thank-you-state-score-5.png)
+![image](./Screenshot-mobile-score-state-inactive.png)
+![image](./Screenshot-mobile-thank-you-state-score-4.png)
 
 ### Links
 
@@ -29,7 +33,6 @@ Project to practice HTML, CSS and JavaScript.
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - JavaScript
 
 ## Author
@@ -39,4 +42,5 @@ Project to practice HTML, CSS and JavaScript.
 
 ## Acknowledgments
 
-I have done projects with JavaScript before, but I'm learning the basic for now.
+I know that the way I managed the events it´s not the best, but I'm learning the basics for now. 
+I might come back to polish this one later.
