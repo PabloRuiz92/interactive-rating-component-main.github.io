@@ -25,8 +25,8 @@ Project to practice HTML, CSS and JavaScript.
 
 ### Links
 
-- Solution repository: ()
-- Live Site URL: ()
+- Solution repository: (https://github.com/PabloRuiz92/interactive-rating-component-main.github.io)
+- Live Site URL: (https://pabloruiz92.github.io/interactive-rating-component-main.github.io/)
 
 ### Built with
 
